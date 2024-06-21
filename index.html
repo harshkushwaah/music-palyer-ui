@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player UI - HTML, CSS</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .music-player {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            padding: 10px;
+            width: 300px;
+            background-color: #c3eed0;
+            border-radius: 5px;
+          }
+          
+          .music-player img {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+          }
+          
+        .music-info {
+            flex: 1;
+            margin-left: 20px;
+          }
+        .music-info h2 {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .music-info p{
+            font-size: 14px;
+            margin: 0;
+        }
+        .controls {
+            display: flex;
+          }
+          
+          .controls button {
+            color: white;
+            height: 30px;
+            width: 30px;
+            margin: 0 5px;
+            background-color: rgb(75, 71, 71);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+          }
+    </style>
+</head>
+<body>
+    <div class="music-player">
+        <img src="albumCover.jpg" alt="Album Cover">
+
+    <div class="music-info">
+        <h2 >Nahin Milta</h2>
+        <p>Bayaan</p>
+    </div>
+        <div class="controls">
+            <button class="pause-btn">||</button>
+            <button class="prev-btn"><<</button>
+            <button class="next-btn">>></button>
+        
+    </div>
+</div>
+</body>
+</html>
